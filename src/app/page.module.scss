@@ -1,0 +1,25 @@
+h1.my_earth {
+  margin-top: 260px;
+  font-size: 128px;
+  font-weight: 700;
+  line-height: 150px;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  display: flex;
+  //inter мистическим образом съезжает вправо на 8 пикселей
+  margin-left: -8px;
+  .greenShadow {
+    filter: drop-shadow(0px 0px 20px rgba(52, 184, 65, 0.25));
+  }
+  .blueShadow {
+    filter: drop-shadow(0 0 20px rgba(52, 105, 184, 0.25));
+  }
+}
+.actualNews {
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  margin-top: 20px;
+}

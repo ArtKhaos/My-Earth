@@ -2,10 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --primary: '#FFFFFF';
-    --green: '#34B841';
-    --blue: '#3469B8';
-  }
+:root {
+  --primary: #FFFFFF;
+  --green: #34B841;
+  --blue: #3469B8;
+  --font-inter: 'Inter', sans-serif;
+  --font-raleway: 'Raleway', sans-serif;
+  --font-rubik: 'Rubik', sans-serif;
 }
+

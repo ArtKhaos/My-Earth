@@ -8,17 +8,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        primary: 'var(--primary)',
-        green: 'var(--green)',
-        blue: 'var(--blue)'
-      },
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontFamily: {
+        inter: ['var(--font-inter)', 'sans-serif'],
+        raleway: ['var(--font-raleway)', 'sans-serif'],
+        rubik: ['var(--font-rubik)', 'sans-serif'],
       },
     },
+    colors: {
+      'primary': 'var(--primary)',
+      'green': 'var(--green)',
+      'blue': 'var(--blue)'
+    }
   },
   plugins: [],
 };
