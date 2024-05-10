@@ -1,6 +1,9 @@
+
 import type {Metadata} from "next";
 import {Inter, Raleway, Rubik} from "next/font/google";
 import "./globals.scss";
+import React from "react";
+
 
 const inter = Inter({subsets: ["latin"], display: 'swap', variable: '--font-inter'})
 const rubik = Rubik({subsets: ["latin"], display: 'swap', variable: '--font-rubik'})
